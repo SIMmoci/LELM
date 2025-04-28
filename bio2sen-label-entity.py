@@ -49,4 +49,4 @@ def convert_dataset_format(input_file, output_file):
             f.write(line + "\n")
 
 # Example usage
-convert_dataset_format("cluedata/bio/bioes/train.bioes", "cluedata/lin/train.txt")
+convert_dataset_format("train.bioes", "train.lin.txt")
