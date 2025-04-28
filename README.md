@@ -3,8 +3,9 @@ This project utilizes the following three publicly available Chinese Named Entit
 
 ### 1. CLUENER2020
 - **Description**: A fine-grained named entity recognition dataset containing 10 entity categories (e.g., person, location, organization), annotated in BIO format.    
-- **Link**: [CLUENER2020 GitHub Repository](https://github.com/CLUEbenchmark/CLUENER2020)  
-- **Example**: 
+- **Link**: [CLUENER2020 GitHub Repository](https://github.com/CLUEbenchmark/CLUENER2020)
+- **Example**:
+  ```text
   浙 B-company
   商 I-company
   银 I-company
@@ -22,7 +23,8 @@ This project utilizes the following three publicly available Chinese Named Entit
  ### 2. MSRA
 - **Description**: A Chinese NER dataset released by MSRA, focusing on three entity types: locations, organizations, and person names, annotated in BIO format.  
 - **Link**: [MSRA GitHub Repository](https://github.com/bytetopia/nlp_datasets)  
-- **Example**: 
+- **Example**:
+  ```text
   历	B-LOC
   博	I-LOC
   、	O
@@ -33,6 +35,7 @@ This project utilizes the following three publicly available Chinese Named Entit
 - **Description**：A Chinese NER dataset released by MSRA, focusing on three entity types: locations, organizations, and person names, annotated in BIO format.  
 - **Link**：[Weibo GitHub Repository](https://github.com/hltcoe/golden-horse/blob/master/data)  
 - **Example**：
+  ```text
   南	B-GPE.NAM
   都	I-GPE.NAM
   深	B-GPE.NAM
